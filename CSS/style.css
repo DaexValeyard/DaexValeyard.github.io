@@ -38,6 +38,10 @@ header nav {
   text-align: center;
 }
 
+header nav table {
+  display: inline-block;
+}
+
 header nav td {
   /** Información de cada celda **/
   width: 0.1%;
