@@ -44,6 +44,6 @@ header nav table {
 
 header nav td {
   /** Información de cada celda **/
-  width: 0.1%;
+  width: 100px;
   font-weight: lighter;
 }
