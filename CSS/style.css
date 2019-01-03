@@ -34,15 +34,13 @@ header h1 {
 
 header nav {
   /** Navegación superior **/
-  margin: 0%;
+  display: flex;
   font-size: 100%;
-  padding-left: 42%;
-  padding-right: 42%;
+  margin: 0 auto;
 }
 
 header nav td {
   /** Información de cada celda **/
-  width: 2%;
-  text-align: center;
+  width: 0.1%;
   font-weight: lighter;
 }
