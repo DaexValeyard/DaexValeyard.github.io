@@ -34,9 +34,8 @@ header h1 {
 
 header nav {
   /** Navegación superior **/
-  display: flex;
   font-size: 100%;
-  margin: 0 auto;
+  text-align: center;
 }
 
 header nav td {
