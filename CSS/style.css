@@ -39,6 +39,7 @@ header h1 {
 header nav {
   overflow: hidden;
   align-items: center;
+  justify-content: center;
 }
 
 header nav a {
