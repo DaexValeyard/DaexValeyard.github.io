@@ -35,3 +35,11 @@ header h1 {
   font-weight: bold;
   height: 20%
 }
+
+.menu-superior {
+  box-sizing: border-box;
+}
+
+.menu-superior ul li {
+  display: inline;
+}
