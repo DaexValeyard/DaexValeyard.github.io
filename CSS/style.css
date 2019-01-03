@@ -3,17 +3,13 @@ html {
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   font-size: 100%;
 }
 
 h1 {
   font-size: 200%;
-}
-
-a {
-  text-decoration: none;
 }
 /*******************************************************************************
                           Menú de navegación y titular (header)
@@ -36,10 +32,33 @@ header h1 {
   height: 20%
 }
 
-.menu-superior {
-  box-sizing: border-box;
+header nav {
+  /** Navegación superior **/
+  font-size: 100%;
+  margin: 0 auto;
 }
 
-.menu-superior ul li {
-  display: inline;
+header nav ul {
+  list-style-type: none;
+  margin 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: inherit;
+}
+
+header li {
+  float: left;
+}
+
+header li a {
+  display: block;
+  color: inherit;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+header li a:hover {
+  background-color: Azure;
+  color: #cb4335;
 }
