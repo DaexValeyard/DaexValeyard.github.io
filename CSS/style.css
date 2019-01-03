@@ -37,12 +37,16 @@ header h1 {
 }
 
 header nav {
-  /** Navegación superior **/
-  font-size: 100%;
-  margin: 0 auto;
+  overflow: hidden;
 }
 
-header nav td {
-  /** Información de cada celda **/
-  font-weight: lighter;
+header nav a {
+  float: left;
+  padding: 100%;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+header nav a:hover {
+  background:  #FFC300;
 }
