@@ -12,7 +12,7 @@ html {
 body{
   width: inherit;
   height: inherit;
-  background-color: #201c29;
+  background-color: #100e17;
 }
 
 #TS {
@@ -26,4 +26,5 @@ body{
 p{
   color: Azure;
   font-size: 120%;
+  text-align: center;
 }
