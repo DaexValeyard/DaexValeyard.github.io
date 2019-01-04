@@ -12,8 +12,15 @@ body{
 }
 
 #TS {
+  display: inline-block;
   width: 50%;
   height: 50%;
   margin: 0 auto;
   padding: 0;
+}
+
+p{
+  color: Azure;
+  font-size: 120%;
+  float: left;
 }
