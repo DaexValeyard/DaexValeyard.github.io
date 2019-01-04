@@ -10,6 +10,8 @@ html {
 }
 
 body{
+  margin: 0 auto;
+  padding: 0;
   width: inherit;
   height: inherit;
   background-color: #100e17;
@@ -19,8 +21,8 @@ body{
   display: inline-block;
   width: 100%;
   height: 50%;
-  margin: 0 auto;
-  padding: 0;
+  margin: inherit;
+  padding: inherit;
   background-color: Black;
 }
 
