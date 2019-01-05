@@ -19,10 +19,10 @@ body{
 
 #TS {
   display: inline-block;
-  width: 100%;
+  width: 90%;
   height: 75%;
-  margin: inherit;
-  padding: inherit;
+  margin: 0 auto;
+  padding: 0;
   background-color: Black;
 }
 
