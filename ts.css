@@ -18,12 +18,24 @@ body{
 }
 
 #TS {
-  display: inline-block;
+  /*display: inline-block;
   width: 90%;
   height: 75%;
   margin: 0 auto;
   padding: 0;
-  background-color: Black;
+  background-color: Black;*/
+  position:fixed;
+  top:0px;
+  left:0px;
+  bottom:0px;
+  right:0px;
+  width:100%;
+  height:100%;
+  border:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  z-index:999999;
 }
 
 p{
